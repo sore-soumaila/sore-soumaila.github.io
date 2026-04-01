@@ -47,8 +47,6 @@ body {
 }
 
 .sidebar {
-  position: sticky;
-  top: 30px;
   align-self: start;
 }
 
@@ -96,6 +94,13 @@ body {
   color: #374151;
 }
 
+.content h3 {
+  font-size: 22px;
+  margin-top: 28px;
+  margin-bottom: 10px;
+  color: #374151;
+}
+
 .content p,
 .content li {
   font-size: 18px;
@@ -125,14 +130,23 @@ body {
   margin-bottom: 10px;
 }
 
+.content ul {
+  padding-left: 22px;
+}
+
+.content a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.content a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 900px) {
   .layout {
     grid-template-columns: 1fr;
     gap: 30px;
-  }
-
-  .sidebar {
-    position: static;
   }
 
   .menu a {
