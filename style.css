@@ -10,3 +10,9 @@ h1 {
 p {
   font-size: 18px;
 }
+
+.photo-profil {
+  width: 220px;
+  height: auto;
+  border-radius: 12px;
+}
