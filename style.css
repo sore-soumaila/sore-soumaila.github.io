@@ -61,7 +61,7 @@ body {
   width: 190px;
   height: 190px;
   object-fit: cover;
-  object-position: center top;
+  object-position: 50% 25%;
   border-radius: 50%;
   display: block;
   margin-bottom: 22px;
