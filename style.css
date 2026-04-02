@@ -14,8 +14,8 @@ body {
 .subcourse {
   margin-top: 6px;
   margin-bottom: 10px;
+  font-weight: 800;
 }
-
 .topbar-container {
   max-width: 1100px;
   margin: 0 auto;
